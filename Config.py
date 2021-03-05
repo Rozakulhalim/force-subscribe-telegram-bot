@@ -5,18 +5,18 @@ class Config():
   if ENV:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     DATABASE_URL = os.environ.get("DATABASE_URL", None)
-    APP_ID = os.environ.get("APP_ID", 1741321)
+    APP_ID = os.environ.get("APP_ID", 2814118)
     API_HASH = os.environ.get("API_HASH", None)
     SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
-    SUDO_USERS.append(728771705)
+    SUDO_USERS.append(1422568717)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = "1427517290:AAEP_ShezKqj4wGV4N29TyY2ysQPzTvrNOw"
+    BOT_TOKEN = "1527488392:AAGDO1HPOreVYBSqY4wPk3Fa5PPR8gkul7w"
     DATABASE_URL = ""
-    APP_ID = "1741321"
-    API_HASH = "c085ffacfbe7b1473fc1cee1b7e40ca7"
+    APP_ID = "2814118"
+    API_HASH = "ab6071cf1ae7839dcdb712da41027fdf"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
-    SUDO_USERS.append(728771705)
+    SUDO_USERS.append(1422568717)
     SUDO_USERS = list(set(SUDO_USERS))
 
 
@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn off ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
         
-        "**Developed by @Souk26**\nTelegram Group: @Moviesbazz2\nOur Channel : @Moviesbazz"
+        "**Developed by @MRojeck_Lim**\nTelegram Group: @Cindysupport\nOur Channel : @cloudhalims7"
       ]
 
       START_MSG = "**Hi, [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
